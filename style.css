@@ -1,0 +1,46 @@
+body{
+    background-color: peachpuff;
+}
+
+.container1{
+height: 200px;
+width: 200px;
+position: relative;
+top: 100px;
+left: 500px;
+text-align: center;
+animation: ashish 5s infinite ease;
+}
+
+.nash{
+    float: left;
+    margin: 14px;
+}
+
+#scale{
+    transform: scale(3);
+    
+}
+
+@keyframes ashish {
+    0%{
+    transform: scale(1);
+    }
+    50%{
+    transform: scale(2);
+    }
+    }
+    
+
+    .container2{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    img{
+      height: 200px;
+      width: 200px;
+    }
